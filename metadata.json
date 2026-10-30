@@ -1,0 +1,6 @@
+{
+  "name": "628 Aerospace — Microgravity Fire Intelligence",
+  "description": "Scientific research platform analyzing NASA microgravity combustion experiments to extract actionable fire safety insights for human spaceflight missions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

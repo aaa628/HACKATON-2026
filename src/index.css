@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #080B10;
+    --bg-secondary: #10151D;
+    --bg-elevated: #151C26;
+    --text-primary: #E8EDF3;
+    --text-secondary: #8793A3;
+    --accent-cyan: #00D9FF;
+    --accent-teal: #64E8D2;
+    --border-subtle: #1E2736;
+    --border-strong: #2A364A;
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  code, kbd, samp, pre, .font-mono {
+    font-family: 'IBM Plex Mono', monospace, ui-monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom scientific scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #080B10;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E2736;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2A364A;
+}
+
+/* Selection style */
+::selection {
+  background: rgba(0, 217, 255, 0.25);
+  color: #FFFFFF;
+}
